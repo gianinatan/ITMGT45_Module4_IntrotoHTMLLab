@@ -1,0 +1,447 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.30),rgba(0,0,0,0.30)),url(bg.png);
+    background-size: cover;
+    background-position: center;
+}
+.page{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.30),rgba(0,0,0,0.30)),url(background2.png);
+    background-size: cover;
+    background-position: center;
+}
+.product{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.30),rgba(0,0,0,0.30)),url(coffee3.png);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 2px;
+    width: 0;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%
+}
+.content{
+    width: 40%;
+    margin: 0 150px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+    color: #fff;
+}
+.content h1{
+    width: 80%;
+    font-size: 50px;
+    margin-top: 80px;
+    line-height: 30px;
+}
+.content p{
+    font-size: 15px;
+    margin: 35px auto;
+    font-weight: 100;
+    line-height: 20px;
+}
+button{
+    width: 150px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 0px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    background: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+.card{
+    width: 330px;
+    height: 180px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 5px 15px;
+    background-image: url(dalgona1.png);
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(americano1.png);
+    margin: 10 15px;
+    margin-top: 50%;
+    margin-left: 12%
+}
+.card2{
+    background-image: url(caramel1.png);
+}
+.card3{
+    background-image: url(latte1.png);
+    margin-left: 12%
+}
+.card4{
+    background-image: url(dalgona1.png);
+}
+.col h1{
+    width: 60%;
+    font-size: 30px;
+    line-height: 100px;
+    color:#fff;
+    margin: -20 95px;
+    position: absolute;
+    top: 47%;
+    transform: translateY(-50%);
+    text-align: left;
+}
+.col h5{
+    color:black;
+    font-size: 20px;
+}
+.col h5 a{
+    text-decoration: none;
+    color: black;
+}
+.col p{
+    color:black;
+}
+.col{
+    width: 60%;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    text-align: left;
+    color: #fff;
+}
+.card:hover{
+    transform: translateY(-10px)
+}
+.card1 button{
+    width: 100px;
+    padding: 5px 0;
+    text-align: center;
+    margin: 60 0px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+}
+.card2 button{
+    width: 100px;
+    padding: 5px 0;
+    text-align: center;
+    margin: 60 0px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+}
+.card3 button{
+    width: 100px;
+    padding: 5px 0;
+    text-align: center;
+    margin: 60 0px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+}
+.card4 button{
+    width: 100px;
+    padding: 5px 0;
+    text-align: center;
+    margin: 60 0px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+}
+.left{
+    width: 40%;
+    margin: 0 150px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+    color: #fff;
+}
+.right{
+    width: 40%;
+    margin: 0 50%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: left;
+    color: #fff;
+}
+.display{    
+    width: 1100px;
+    height: 450px;
+    margin: -13% 150px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-image: url(ia.png);
+    background-position: center;
+    background-size: cover;
+}
+.display h1{
+    width: 80%;
+    font-size: 60px;
+    margin: 55 40px;
+    line-height: 20px;
+    color:black;
+}
+.display h2{
+    width: 80%;
+    font-size: 30px;
+    margin: 40px;
+    margin-top: -30px;
+    color:black;
+}
+.display p{
+    font-size: 15px;
+    margin: 40px;
+    margin-top: -5px;
+    font-weight: 100;
+    line-height: 10px;
+}
+.display button{
+    width: 150px;
+    text-align: center;
+    margin: 40px;
+    margin-top: -5px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+}
+.display1{    
+    width: 1100px;
+    height: 450px;
+    margin: -13% 150px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-image: url(cm.png);
+    background-position: center;
+    background-size: cover;
+}
+.display1 h1{
+    width: 80%;
+    font-size: 60px;
+    margin: 55 40px;
+    line-height: 20px;
+    color:black;
+}
+.display1 h2{
+    width: 80%;
+    font-size: 30px;
+    margin: 40px;
+    margin-top: -30px;
+    color:black;
+}
+.display1 p{
+    font-size: 15px;
+    margin: 40px;
+    margin-top: -5px;
+    font-weight: 100;
+    line-height: 10px;
+}
+.display1 button{
+    width: 150px;
+    text-align: center;
+    margin: 40px;
+    margin-top: -5px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+}
+.display2{    
+    width: 1100px;
+    height: 450px;
+    margin: -13% 150px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-image: url(il.png);
+    background-position: center;
+    background-size: cover;
+}
+.display2 h1{
+    width: 80%;
+    font-size: 60px;
+    margin: 55 40px;
+    line-height: 20px;
+    color:black;
+}
+.display2 h2{
+    width: 80%;
+    font-size: 30px;
+    margin: 40px;
+    margin-top: -30px;
+    color:black;
+}
+.display2 p{
+    font-size: 15px;
+    margin: 40px;
+    margin-top: -5px;
+    font-weight: 100;
+    line-height: 10px;
+}
+.display2 button{
+    width: 150px;
+    text-align: center;
+    margin: 40px;
+    margin-top: -5px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+}
+.display3{    
+    width: 1100px;
+    height: 450px;
+    margin: -13% 150px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-image: url(dgn.png);
+    background-position: center;
+    background-size: cover;
+}
+.display3 h1{
+    width: 80%;
+    font-size: 60px;
+    margin: 55 40px;
+    line-height: 20px;
+    color:black;
+}
+.display3 h2{
+    width: 80%;
+    font-size: 30px;
+    margin: 40px;
+    margin-top: -30px;
+    color:black;
+}
+.display3 p{
+    font-size: 15px;
+    margin: 40px;
+    margin-top: -5px;
+    font-weight: 100;
+    line-height: 10px;
+}
+.display3 button{
+    width: 150px;
+    text-align: center;
+    margin: 40px;
+    margin-top: -5px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid black;
+    background: transparent;
+    color: black;
+    cursor: pointer;
+}
+.footer{
+    padding: 20px 0;
+    margin: 507px 0;
+    background-color: #ab3535;
+}
+.footer .social{
+    text-align: center;
+}
+.footer .social a:hover{
+    opacity: 0.9;
+}
+.footer ul{
+    margin-top: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+    color: #fff;
+}
+.footer ul a{
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+.footer ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer ul li a:hover{
+    opacity: 1;
+}
+.footer .copyright{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #fff;
+}
